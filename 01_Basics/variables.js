@@ -7,7 +7,13 @@ accountName = "anand007"
 accountType = "bank"
 accountHolder =    "darkesh"
 
-console.table([accountName,accountNumber,accountType,accountHolder])
+// console.table([accountName,accountNumber,accountType,accountHolder])
 /*
 multi-line commenting
 */
+
+let a = 5
+let b=a
+a = 6
+console.log(a);
+console.log(b);
