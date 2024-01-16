@@ -23,3 +23,15 @@ const JsUser = {
     [mySym]: "mykey1"
 }
 
+JsUser.greeting = function(){
+    console.log("Hello my boy , Good Morning");
+    return "get out"
+}
+// console.log(JsUser.greeting)
+// console.log(JsUser.greeting())
+console.log(JsUser)
+
+JsUser.greetingTwo = function(){
+    console.log(`Hello my location is ${this.lastLoginDays[0]}`)
+}
+console.log(JsUser.greetingTwo());
