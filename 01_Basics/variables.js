@@ -12,8 +12,14 @@ accountHolder =    "darkesh"
 multi-line commenting
 */
 
-let a = 5
-let b=a
-a = 6
-console.log(a);
-console.log(b);
+// let a = 5
+// let b=a
+// a = 6
+// console.log(a);
+// console.log(b);
+
+const a = true
+const b = "1"
+console.log(a==b);
+
+
