@@ -14,14 +14,29 @@
 
 // const res = addTwoNumbers(1,2)
 // console.log(res)
+// function loginUserMessage(username="anand"){
+//     return `${username} just logged in`
+// }
+// const message = loginUserMessage()
+// console.log(message);
+// function cartItemsPrices(...num3){
+//     return num3
+// }
+
+// console.log(cartItemsPrices(100,200,300,500,650,1000))
 
 
-function loginUserMessage(username="anand"){
-
-    return `${username} just logged in`
-
+function handleAnyObject(anyobject){
+    console.log(`The USERNAME is ${anyobject.username} and location is ${anyobject.location}`)
 }
 
-const message = loginUserMessage()
-console.log(message);
+myobj = {
+    username: "anand@007",
+    location: "kdlr"
+}
 
+handleAnyObject(myobj)
+handleAnyObject({
+    username: "kumble@345",
+    location: "kdlr"
+})
