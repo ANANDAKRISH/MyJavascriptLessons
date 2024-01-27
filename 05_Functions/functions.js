@@ -26,17 +26,17 @@
 // console.log(cartItemsPrices(100,200,300,500,650,1000))
 
 
-function handleAnyObject(anyobject){
-    console.log(`The USERNAME is ${anyobject.username} and location is ${anyobject.location}`)
-}
+// function handleAnyObject(anyobject){
+//     console.log(`The USERNAME is ${anyobject.username} and location is ${anyobject.location}`)
+// }
 
-myobj = {
-    username: "anand@007",
-    location: "kdlr"
-}
+// myobj = {
+//     username: "anand@007",
+//     location: "kdlr"
+// }
 
-handleAnyObject(myobj)
-handleAnyObject({
-    username: "kumble@345",
-    location: "kdlr"
-})
+// handleAnyObject(myobj)
+// handleAnyObject({
+//     username: "kumble@345",
+//     location: "kdlr"
+// })
