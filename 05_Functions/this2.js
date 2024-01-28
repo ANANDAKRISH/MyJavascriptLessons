@@ -31,15 +31,15 @@
 //   greet(); 
 
 //3
-function Person(name) {
-    this.name = name;
-    this.sayHello = () => {
-      console.log(`Hello, ${this.name}!`);
-    };
-  }
+// function Person(name) {
+//     this.name = name;
+//     this.sayHello = () => {
+//       console.log(`Hello, ${this.name}!`);
+//     };
+//   }
   
-  const person = new Person('John');
-  person.sayHello();
+//   const person = new Person('John');
+//   person.sayHello();
   
   // the arrow function sayHello inherits the this value from the Person function, allowing it to access the name property of the Person instance.
   
