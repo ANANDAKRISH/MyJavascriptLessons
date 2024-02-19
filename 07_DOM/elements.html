@@ -7,19 +7,32 @@
 </head>
 
 <body style="background-color : #212121; color:#fff">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
 </body>
 
 <script>
-    const div = document.createElement('div')
-    div.className = "main"
-    div.id = "myId"
-    div.setAttribute("title","generated title")
-    div.style.backgroundColor = "orange"
-    div.style.padding = "15px"
-    const addText = document.createTextNode("chai aur code")
-    div.appendChild(addText)
-    document.body.appendChild(div)
-    console.log(div);
+    function addLanguage(langName){
+        const new_li = document.createElement('li')
+        new_li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(new_li)
+    }
+    addLanguage("Python")
+    addLanguage("Java")
+
+    const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+    const new_li = document.createElement('li')
+    new_li.textContent = "Ruby on rails"
+    secondLang.replaceWith(new_li)
+
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>springboot</li>'
+
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()
+
 </script>
 
 </html>
